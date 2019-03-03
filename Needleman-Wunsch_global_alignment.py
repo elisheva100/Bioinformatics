@@ -1,4 +1,3 @@
-#Elisheva Heilbrun 208833012
 #This program executes the NW algorithm for global sequence alignment.
 import numpy as np
 from string import *
