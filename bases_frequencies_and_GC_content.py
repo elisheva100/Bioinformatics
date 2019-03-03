@@ -1,4 +1,3 @@
-#Elisheva Heilbrun 208833012
 #This program executes some Statistical Functions on sequences.
 
 from string import *
