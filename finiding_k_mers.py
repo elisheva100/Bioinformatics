@@ -1,5 +1,3 @@
-#Elisheva Heilbrun 208833012
-
 from string import *
 
 def frequent (seq, k):
