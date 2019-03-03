@@ -1,4 +1,3 @@
-#Elisheva Heilbrun 208833012
 #This program translates dna sequence into proteins.
 from string import *
 
