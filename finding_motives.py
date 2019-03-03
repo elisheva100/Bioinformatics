@@ -1,4 +1,3 @@
-#Elisheva Heilbrun 208833012
 from string import *
 
 print ">gi number  Length  motive"
