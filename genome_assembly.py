@@ -1,6 +1,3 @@
-#Elisheva Heilbrun 208833012
-#Ruhami Tehila Vorona 316230671
-
 #This program assembles genomic sequence.
 
 #-----------------------------------------------------------------------
