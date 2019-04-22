@@ -19,7 +19,7 @@ def counting(motifs):
     for i in range(k):
         currCounts = {nuc: 0 for nuc in nucleotides}  # Initializes the matrix.
         for motif in motifs:
-            currCounts[motif[i]] += 1  # Adds the  occurrence of the nucleotide at the current position.
+            currCounts[motif[i]] += 1  # Adds the occurrence of the nucleotide at the current position.
         counts.append([currCounts[nuc] for nuc in nucleotides])
     return counts
 
@@ -40,7 +40,7 @@ def findProfile(motifs):
     the nth base in length k motif will be a specific base """
     k = float(len(motifs[0]))  # The length of the motif being searched for.
     counts = counting(motifs)  # The counting matrix.
-    # CCalculates the probabilty by dividing each cell in the matrix in k (adds pseudo 1 in order to avoid zeros).
+    # Calculates the probabilty by dividing each cell in the matrix in k (adds pseudo 1 in order to avoid zeros).
     profile = [[(element+1)/k for element in count] for count in counts]
     return profile
 
@@ -113,7 +113,7 @@ def main():
     R = raw_input("Enter how many times you want the whole process to be performed: ")
     dna = file(pathToFile).read()
 
-    # Default parameters:
+    # Example for parameters:
     # pathToFile = "DNA.txt"
     # k = 8
     # N = 100
